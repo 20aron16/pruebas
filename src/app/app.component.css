@@ -1,0 +1,196 @@
+@font-face {
+	font-family: "Hanken";
+	src: url(../assets/fonts/HankenGrotesk-Italic-VariableFont_wght.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+	font-family: "Hanken";
+}
+
+.principal{
+	padding: 0px;
+	text-align: center;
+	width: 100%;
+	height: 800px;
+	background-image: url('https://www.publimetro.co/resizer/WFCrP2sZkBB-y4Mj6PHzHfIFRaQ=/1024x1024/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/KKURXVOE65CP5JTPUXLUDEOGIU.jpg');
+	background-position: 93px 1px;
+	
+}
+
+.wrap{
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	backdrop-filter: blur(2px);
+}
+
+.targer{
+	padding: 0px;
+	background-color: rgba(0,8,0,0.9);
+	height: 37%;
+	margin-left: 7%;
+	margin-top: 213px;
+	text-align: left;
+}
+
+.content{
+	padding: 4%;
+}
+
+.targer p, h2{
+	color: white;
+}
+
+.porcentajes{
+	width: 100%;
+	font-size: 152%;
+	margin: 255px 0px 0px 0px;
+}
+
+#like{
+	color: white;
+	background-color: RGB(1,136,131,0.6);
+}
+
+#notlike{
+	color: white;
+	background-color: RGB(197,126,0, 0.6);
+}
+
+.like-voto{
+	color: white;
+	background-color: RGB(1,136,131,0.6);
+	height: 43px;
+	width: 50%;
+	font-size: 30px;
+	margin: 11px 0px 0px 0px;
+	padding-left: 20%;
+	cursor: pointer;
+}
+
+.notlike-voto{
+	color: white;
+	height: 43px;
+	width: 50%;
+	font-size: 30px;
+	
+	background-color: RGB(197,126,0, 0.6);
+	margin: 11px 0px 0px 0px;
+	padding-left: 20%;
+	cursor: pointer;
+}
+.encabezado{
+	background-color: #FAFAFA;
+	width: 70%;
+	margin-left: 15%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	font-size: 17px;
+}
+
+.movie{
+	height: 500px;
+	padding: 0px;
+	margin-left: 6%;
+	margin-bottom: 6%;
+}
+
+.movie1{
+	background-image: url('https://media.revistagq.com/photos/5ca5f1b3f46488687cf49211/master/pass/peliculas_mas_taquilleras_5260.jpg');
+	background-position: -269px -16px;
+}
+
+.movie2{
+	background-image: url('https://i.blogs.es/c7ed10/screenshot_90/1366_2000.jpeg');
+	background-position: -269px -16px;
+}
+
+.movie3{
+	background-image: url('https://arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/TJCTQQPMJREXBHJVDZYF2YEUD4.jpg');
+	background-position: -269px -16px;	
+}
+
+.movie4{
+	background-image: url('https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2019/10/hipertextual-director-joker-refuerza-mayores-teorias-sobre-arthur-fleck-2019522402.jpg?fit=1200%2C675&quality=60&strip=all&ssl=1');
+	background-position: -269px -16px;	
+}
+
+.card-title{
+	margin: 360px 0px 0px 0px;
+}
+
+.card-title h3{
+	color: white;
+}
+
+.like{
+	color: white;
+	background-color: #01C2AD;
+	font-size: 23px;
+}
+
+.notlike{
+	color: white;
+	background-color: #FCAC00;
+	font-size: 23px;
+}
+
+.title{
+	margin: 0px 0px 0px 6px;
+}
+
+.description{
+	color: white;
+	font-size: 15px;
+	margin-left: 28px;
+}
+.btn-border{
+	color: white;
+	margin-left: 27px;
+	border: 1px solid white;
+	border-radius: 0px;
+	height: 30px;
+}
+
+.coment{
+	color: white;
+	margin-left: 35%;
+}
+
+.div-like{
+	color: white;
+	height: 28px;
+	width: 60%;
+	background-color: RGB(1,136,131,0.6);
+	margin: 11px 0px 0px 0px;
+	padding-left: 5px;
+}
+
+.div-notlike{
+	color: white;
+	background-color: RGB(197,126,0, 0.6);
+	height: 28px;
+	width: 40%;
+	margin: 11px 0px 0px 0px;
+	padding-left: 5px;
+}
+
+.div-like2{
+	color: white;
+	height: 28px;
+	width: 37%;
+	background-color: RGB(1,136,131,0.6);
+	margin: 11px 0px 0px 0px;
+	padding-left: 5px;
+}
+
+.div-notlike2{
+	color: white;
+	background-color: RGB(197,126,0, 0.6);
+	height: 28px;
+	width: 63%;
+	margin: 11px 0px 0px 0px;
+	padding-left: 5px;
+}

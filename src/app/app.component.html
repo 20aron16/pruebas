@@ -1,0 +1,188 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+    <title>Album example for Bootstrap</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/album/">
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <div class="row principal">
+          <div class="wrap">
+            <div class="col-md-4 targer" *ngIf="novoto">
+              <div class="content">
+                <p>Dinos tu opinión sobre</p>
+                <h2>Iroman?</h2>
+                <p>Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Cupiditate, delectus error. </p>
+                <br>
+                <p>¿Cuál es tu voto?</p>  
+              </div>
+            
+              <div class="card-footer1 d-flex">
+                  <div class="like-voto" (click)="registraVoto(1)">
+                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                  </div>
+                  <div class="notlike-voto" (click)="registraVoto(2)">
+                    <i class="bi bi-hand-thumbs-down-fill"></i>
+                  </div>
+              </div>
+            </div>
+
+
+            <div class="col-md-4 targer" *ngIf="sivoto">
+             <div class="content">
+                <p>Tu voto ha sido registrado </p>
+                <h2>Iroman</h2>
+                <p>Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Cupiditate, delectus error. </p>
+                <br>
+                <button class="btn btn-sm btn-border" (click)="votarnew()"><< Volver a votar</button>
+              </div>
+            
+            </div>
+
+
+
+            <div class="d-flex porcentajes">
+              <div id="like"><i class="bi bi-hand-thumbs-up-fill"></i></div>
+              <div id="notlike"><i class="bi bi-hand-thumbs-down-fill"></i></div>
+            </div>
+          </div>
+
+          
+        </div>
+        
+    </div>
+    </header>
+
+    <main role="main">
+
+      <section class="jumbotron text-center">
+        <div class="container">
+          <div class="row encabezado text-center">
+            <p class="lead text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi veniam maxime consequatur molestiae rem quas eaque natus odio. Ipsa non blanditiis impedit in velit minima maiores modi qui eligendi aliquid?</p>  
+          </div>
+          
+        </div>
+      </section>
+
+      <div class="album py-5 bg-light">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-5 movie movie1">
+              <div class="card-title d-flex">
+                <i class="bi bi-hand-thumbs-up-fill like"></i>
+                <h3 class="title">Acuaman</h3>
+              </div>
+              <div class="d-flex">
+                <h4 class="description">Lorem ipsum dolor, sit amet, consectetur adipisicing elit.</h4>
+              </div>
+              <div class="d-flex">
+                <button class="btn btn-sm btn-border">Ver detalle</button>
+                <p class="coment">1 mes atrás en lorem dolor</p>
+              </div>
+              <div class="card-footer d-flex">
+                <div class="div-like">
+                  <i class="bi bi-hand-thumbs-up-fill">     60%</i>
+                </div>
+                <div class="div-notlike">
+                  <i>40%  </i> <i class="bi bi-hand-thumbs-down-fill"></i>
+                </div>
+              </div>
+              
+            </div>
+
+            <div class="col-md-5 movie movie2">
+              <div class="card-title d-flex">
+                <i class="bi bi-hand-thumbs-down-fill notlike"></i>
+                <h3 class="title">Spiderman</h3>
+              </div>
+              <div class="d-flex">
+                <h4 class="description">Lorem ipsum dolor, sit amet, consectetur adipisicing elit.</h4>
+              </div>
+              <div class="d-flex">
+                <button class="btn btn-sm btn-border">Ver detalle</button>
+                <p class="coment">1 mes atrás en lorem dolor</p>
+              </div>
+              <div class="card-footer d-flex">
+                <div class="div-like2">
+                  <i class="bi bi-hand-thumbs-up-fill">     37%</i>
+                </div>
+                <div class="div-notlike2">
+                  <i>63%  </i> <i class="bi bi-hand-thumbs-down-fill"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-5 movie movie3">
+              <div class="card-title d-flex">
+                <i class="bi bi-hand-thumbs-down-fill notlike"></i>
+                <h3 class="title">Batman</h3>
+              </div>
+              <div class="d-flex">
+                <h4 class="description">Lorem ipsum dolor, sit amet, consectetur adipisicing elit.</h4>
+              </div>
+              <div class="d-flex">
+                <button class="btn btn-sm btn-border">Ver detalle</button>
+                <p class="coment">1 mes atrás en lorem dolor</p>
+              </div>
+              <div class="card-footer d-flex">
+                <div class="div-like2">
+                  <i class="bi bi-hand-thumbs-up-fill">     37%</i>
+                </div>
+                <div class="div-notlike2">
+                  <i>63%  </i> <i class="bi bi-hand-thumbs-down-fill"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-5 movie movie4">
+              <div class="card-title d-flex">
+                <i class="bi bi-hand-thumbs-up-fill like"></i>
+                <h3 class="title">Joker</h3>
+              </div>
+              <div class="d-flex">
+                <h4 class="description">Lorem ipsum dolor, sit amet, consectetur adipisicing elit.</h4>
+              </div>
+              <div class="d-flex">
+                <button class="btn btn-sm btn-border">Ver detalle</button>
+                <p class="coment">1 mes atrás en lorem dolor</p>
+              </div>
+              <div class="card-footer d-flex">
+                <div class="div-like">
+                  <i class="bi bi-hand-thumbs-up-fill">     60%</i>
+                </div>
+                <div class="div-notlike">
+                  <i>40%  </i> <i class="bi bi-hand-thumbs-down-fill"></i>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <footer class="text-muted">
+      <div class="container">
+        <p class="float-right">
+          <a href="#">Back to top</a>
+        </p>
+        <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
+        <p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting started guide</a>.</p>
+      </div>
+    </footer>
+  </body>
+</html>
